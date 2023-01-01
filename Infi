@@ -1,0 +1,9 @@
+# Get details for 200.68.167.197
+$ curl ipinfo.io/177.249.32.227
+?get=$information
+
+# Get details for 2001:4860:4860::8888
+$ curl ipinfo.io/2001:4860:4860::8888?token=$TOKEN
+
+# Get details for your own IP address, which'll be included in the response
+$ curl ipinfo.io?token=$TOKEN
